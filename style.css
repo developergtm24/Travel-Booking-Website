@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    height: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header .logo{
+    border: 2px solid purple;
+    padding: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.header .menu-item{
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .menu-item a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-size: 20px;
+    transition: all 0.3s ease-out;
+}
+
+.header .menu-item .home{
+    border-bottom: 2px solid purple;
+}
+
+.header .menu-item a:hover{
+    color: orange;
+    margin-top: -20px;
+}
+
+.bg-sec{
+    background-image: url(https://images.pexels.com/photos/939729/pexels-photo-939729.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 560px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-sec .txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 15px;
+    color: white;
+}
+
+.bg-sec .txt .first-txt{
+    font-size: 44px;
+}
+
+.bg-sec .srch{
+    margin-top: 20px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.bg-sec .srch input{
+    width: 48vw;
+    height: 4vw;
+    border: none;
+    border-radius: 8px;
+    padding-left: 30px;
+}
+
+.bg-sec .srch button{
+    position: absolute;
+    width: 8vw;
+    background-color: orange;
+    font-size: 20px;
+    cursor: pointer;
+    height: 4vw;
+    border: none;
+    border-radius: 8px;
+}
+
+.bg-sec .srch button:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(236, 183, 83);
+}
+
+.offer{
+    height: 400px;
+    background-color: whitesmoke;
+    padding: 30px;
+}
+
+.offer .txt{
+    display: flex;
+    justify-content: center;
+}
+
+.offer .main-con{
+    display: flex;
+    column-gap: 20px;
+}
+
+.offer .main-con .box{
+    background:white;
+    width: 281px;
+    height: 281px;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 30px;
+    overflow: hidden;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.offer .main-con .box img{
+    margin-left: -7px;
+    height: 186px;
+}
+
+.offer .main-con .box .txt{
+    display: flex;
+    flex-direction: column;
+    padding-top: 12px;
+    row-gap: 4px;
+}
+
+.offer .main-con .box .txt p{
+    display: flex;
+    width: max-content;
+    column-gap: 17px;
+}
+
+.offer .main-con .box .txt p span{
+    color: red;
+}
+
+.offer .main-con .box .btn{
+    margin-top: 7px;
+}
+
+.offer .main-con .box .btn button{
+    padding: 8px 20px;
+    border: none;
+    background: orange;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+.offer .main-con .box .btn button:hover{
+    background-color: whitesmoke;
+    border: 1px solid orange;
+}
+
+.dest{
+    height: 740px;
+    background-color: white;
+    padding: 30px;
+}
+
+.dest .txt{
+    display: flex;
+    justify-content: center;
+}
+
+.dest .main-con .box img{
+    height: 40vw;
+}
+
+.dest .main-con{
+    display: flex;
+    column-gap: 20px;
+    margin-top: 30px;
+}
+
+.dest .main-con .box{
+    background: white;
+    width: 364px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.dest .main-con .box2{
+    background: whitesmoke;
+    width: 382px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    height: 280px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.dest .main-con .box-sec-2{
+    display: flex;
+    row-gap: 20px;
+    column-gap: 20px;
+    flex-wrap: wrap;
+}
+
+.dest .main-con .box-sec-2 img{
+    height: 217px;
+}
+
+.contact{
+    height: 300px;
+    background-color: whitesmoke;
+    padding: 30px;
+}
+
+.contact .main-con{
+    display: flex;
+    column-gap: 20px;
+    margin-top: 30px;
+}
+
+.contact .txt{
+    display: flex;
+    justify-content: center;
+}
+
+.contact .main-con .box{
+    background: white;
+    width: 270px;
+    height: 125px;
+    border-radius: 8px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    column-gap: 11px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    row-gap: 20px;
+}
+
+.contact .main-con .box i{
+    font-size: 32px;
+    color: blue;
+}
+
+.contact .main-con .box p{
+    line-height: 20px;
+    font-family: math;
+    display: flex;
+    text-align: center;
+}
+
+.contact .main-con .box4{
+    background: white;
+    width: 270px;
+    height: 125px;
+    border-radius: 8px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    column-gap: 11px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    row-gap: 20px;
+}
+
+.contact .main-con .box4 p{
+    font-size: 23px;
+    font-family: system-ui;
+    color: blue;
+}
+
+.contact .main-con .box4 .social{
+    font-size: 35px;
+    column-gap: 25px;
+    display: flex;
+}
+
+.contact .main-con .box4 .social i{
+    cursor: pointer;
+}
+
+.footer{
+    height: 270px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.footer .align{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.footer .logo{
+    border: 2px solid purple;
+    padding: 10px;
+    border-radius: 7px;
+    height: fit-content;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.footer .menu-item{
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+}
+
+.footer .menu-item a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-size: 20px;
+    transition: all 0.3s ease-out;
+}
+
+.footer .menu-item .home{
+    border-bottom: 2px solid purple;
+}
+
+.footer .menu-item a:hover{
+    color: orange;
+    margin-top: -20px;
+}
+
+.footer .align .txt-footer{
+    padding: 20px 155px;
+}
+
+.copy{
+    padding: 20px 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.copy .social{
+    font-size: 25px;
+    column-gap: 20px;
+    display: flex;
+}
+
+.copy .social i{
+    cursor: pointer;
+}
